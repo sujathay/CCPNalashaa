@@ -1,0 +1,31 @@
+﻿<h2>
+    {{action}} Contact
+</h2>
+<div class="list-container">
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" ng-model="contact.FirstName" /></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" ng-model="contact.LastName" /></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" ng-model="contact.Email" /></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="text" ng-model="contact.Phone" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:right">
+                <button class="button" ng-click="save()">
+                    {{action}}
+                </button>
+                <a href="#/" class="cancel">Cancel</a>
+            </td>
+        </tr>
+    </table>
+</div>

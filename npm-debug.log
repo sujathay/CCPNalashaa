@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ngRoute' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'ngRoute', null ]
+6 verbose cache add name=undefined spec="ngRoute" args=["ngRoute",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'ngRoute',
+7 verbose parsed url   path: 'ngRoute',
+7 verbose parsed url   href: 'ngRoute' }
+8 silly lockFile dbd4fa39-ngRoute ngRoute
+9 verbose lock ngRoute C:\Users\prakash\AppData\Roaming\npm-cache\dbd4fa39-ngRoute.lock
+10 silly lockFile dbd4fa39-ngRoute ngRoute
+11 silly lockFile dbd4fa39-ngRoute ngRoute
+12 verbose addNamed [ 'ngRoute', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c7fabb91-ngRoute ngRoute@
+15 verbose lock ngRoute@ C:\Users\prakash\AppData\Roaming\npm-cache\c7fabb91-ngRoute.lock
+16 silly addNameRange { name: 'ngRoute', range: '*', hasData: false }
+17 verbose url raw ngRoute
+18 verbose url resolving [ 'https://registry.npmjs.org/', './ngRoute' ]
+19 verbose url resolved https://registry.npmjs.org/ngRoute
+20 info trying registry request attempt 1 at 17:49:28
+21 http GET https://registry.npmjs.org/ngRoute
+22 http 404 https://registry.npmjs.org/ngRoute
+23 verbose headers { date: 'Fri, 19 Dec 2014 12:21:11 GMT',
+23 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=0',
+23 verbose headers   'content-length': '52',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '0',
+23 verbose headers   'x-served-by': 'cache-sn87-SIN',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1418991671.047562,VS0,VE245',
+23 verbose headers   'keep-alive': 'timeout=10, max=50',
+23 verbose headers   connection: 'Keep-Alive' }
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Fri, 19 Dec 2014 12:21:11 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1418991671.047562,VS0,VE245',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile c7fabb91-ngRoute ngRoute@
+26 silly lockFile c7fabb91-ngRoute ngRoute@
+27 error 404 404 Not Found: ngRoute
+27 error 404
+27 error 404 'ngRoute' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Windows_NT 6.1.7601
+29 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "ngRoute"
+30 error cwd D:\projects\AngularJs_Sample
+31 error node -v v0.10.29
+32 error npm -v 1.4.14
+33 error code E404
+34 verbose exit [ 1, true ]

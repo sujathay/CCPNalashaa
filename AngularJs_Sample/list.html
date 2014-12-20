@@ -1,0 +1,32 @@
+﻿<h2>
+    Contacts
+    [<a href="/#new" class="new" title="Add New Contact"></a>]
+</h2>
+<div class="search">
+    <input type="text" placeholder="Search" ng-model="kwd" />
+    <button ng-click="search()">Search</button>&nbsp;<button ng-disabled="kwd == ''" ng-click="reset()">Reset</button>
+</div>
+<div class="list-container">
+    <table>
+        <tr>
+            <th><a ng-click="orderBy('SlNo')">#</a></th>
+            <th><a ng-click="orderBy('FirstName')">First Name</a></th>
+            <th><a ng-click="orderBy('LastName')">Last Name</a></th>
+            <th><a ng-click="orderBy('Email')">Email</a></th>
+            <th><a ng-click="orderBy('Phone')">Phone</a></th>
+            <th></th>
+        </tr>
+        <tr ng-repeat="item in contactItems" id="item_{{item.SlNo}}">
+            <td>{{item.SlNo}}.</td>
+            <td>{{item.FirstName}}</td>
+            <td>{{item.LastName}}</td>
+            <td>{{item.Email}}</td>
+            <td>{{item.Phone}}</td>
+            <td>
+                <a ng-click="edit()" class="edit" title="edit"></a>
+                <a ng-click="delete()" class="delete" title="delete"></a>
+            </td>
+        </tr>
+    </table>
+    <a ng-click="showMore()" ng-show="isMore" class="more">show more</a>
+</div>

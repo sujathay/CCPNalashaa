@@ -1,0 +1,146 @@
+﻿body
+{
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9pt;
+}
+
+.list-container
+{
+    width: 60%;
+    display: block;
+}
+
+.search
+{
+    margin:10px 0 10px 0;
+}
+
+h2 .new
+{
+    background-image: url('images/new.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    overflow: visible;
+}
+
+h3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+}
+
+table
+{
+    width: auto;
+    border-collapse: collapse;
+}
+
+    table tr:nth-child(2n+1)
+    {
+        background-color: #dedede;
+    }
+
+    table th, td
+    {
+        padding: 5px;
+        border: solid 1px #808080;
+        margin: 0;
+        border-collapse: collapse;
+    }
+
+th
+{
+    background-color: #f5cece;
+}
+
+    th a
+    {
+        cursor: pointer;
+    }
+
+
+input
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9pt;
+    width: 300px;
+}
+
+table td a.edit
+{
+    background-image: url('images/edit.gif');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    overflow: visible;
+    cursor: pointer;
+    border: solid 1px #a3a3a3;
+    background-color: #c3c3c3;
+}
+
+    table td a.edit:hover, a.delete:hover
+    {
+        background-color: #a9a9a9;
+    }
+
+button
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9pt;
+    display: inline-block;
+    background-color: #0716c2;
+    border: solid 1px #0005ef;
+    color: #FFF;
+    width: 50px;
+    text-align:center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+table td a.delete
+{
+    background-image: url('images/delete.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    overflow: visible;
+    cursor: pointer;
+    border: solid 1px #a3a3a3;
+    background-color: #c3c3c3;
+}
+
+table a.cancel
+{
+    text-decoration: none;
+    display: inline-block;
+    border: solid 1px #808080;
+    background-color: #c3c3c3;
+    color: #000000;
+    width: 40px;
+    padding: 2px;
+    text-align: center;
+}
+
+.more
+{
+    text-decoration: underline;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    float:left;
+}
+
+    .more:hover
+    {
+        text-decoration: none;
+    }
