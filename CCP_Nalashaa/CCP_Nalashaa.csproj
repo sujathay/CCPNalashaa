@@ -69,6 +69,8 @@
     <Content Include="styles\images\edit.gif" />
     <Content Include="styles\images\new.png" />
     <Content Include="styles\main.css" />
+    <Content Include="views\Login.html" />
+    <Content Include="views\Registration.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +83,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
