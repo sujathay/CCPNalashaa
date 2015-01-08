@@ -1,0 +1,12 @@
+C:\Users\sujatha\AppData\Roaming\Skype\My Skype Received Files\3-AngularJS_Sample\AngularJs_Sample\bin\AngularJs_Sample.dll.config
+C:\Users\sujatha\AppData\Roaming\Skype\My Skype Received Files\3-AngularJS_Sample\AngularJs_Sample\bin\AngularJs_Sample.dll
+C:\Users\sujatha\AppData\Roaming\Skype\My Skype Received Files\3-AngularJS_Sample\AngularJs_Sample\bin\AngularJs_Sample.pdb
+C:\Users\sujatha\AppData\Roaming\Skype\My Skype Received Files\3-AngularJS_Sample\AngularJs_Sample\obj\Debug\CCP_Nalashaa.csprojResolveAssemblyReference.cache
+C:\Users\sujatha\AppData\Roaming\Skype\My Skype Received Files\3-AngularJS_Sample\AngularJs_Sample\obj\Debug\AngularJs_Sample.dll
+C:\Users\sujatha\AppData\Roaming\Skype\My Skype Received Files\3-AngularJS_Sample\AngularJs_Sample\obj\Debug\AngularJs_Sample.pdb
+D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\bin\AngularJs_Sample.dll.config
+D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\bin\AngularJs_Sample.dll
+D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\bin\AngularJs_Sample.pdb
+D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\obj\Debug\CCP_Nalashaa.csprojResolveAssemblyReference.cache
+D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\obj\Debug\AngularJs_Sample.dll
+D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\obj\Debug\AngularJs_Sample.pdb
