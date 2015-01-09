@@ -1,5 +1,5 @@
 ﻿
-var ContactsApp = angular.module("ContactsApp", ['ngRoute']).
+var ContactsApp = angular.module("ContactsApp", ['ngRoute','ngResource']).
     config(function ($routeProvider) {
         $routeProvider.
             when('/', { controller: ListCtrl, templateUrl: 'list.html' }).
@@ -7,7 +7,7 @@ var ContactsApp = angular.module("ContactsApp", ['ngRoute']).
             when('/edit/:id', { controller: EditCtrl, templateUrl: 'details.html' }).
             when('/newTrip/:id', { controller: TripCtrl, templateUrl: 'AddCP.html' }).
             otherwise({ redirectTo: '/' });
-        // $locationProvider.html5Mode(true);
+       
     });
 
 var ListCtrl = function ($scope, $location) {
