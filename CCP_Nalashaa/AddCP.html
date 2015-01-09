@@ -1,0 +1,34 @@
+﻿<h2>
+    {{action}} Trip
+</h2>
+<div class="list-container">
+    <table>
+        <tr>
+            <td>Origin:</td>
+            <td>
+                <input type="text" ng-model="contact.FirstName" />
+                <input type="text" id="Autocomplete2" ng-model="autocomplete" class="form-control" ng-autocomplete options="options" details="details" />
+            </td>
+        </tr>
+        <tr>
+            <td>Destination:</td>
+            <td><input type="text" ng-model="contact.LastName" /></td>
+        </tr>
+        <tr>
+            <td>Travel Date:</td>
+            <td><input type="text" ng-model="contact.Email" /></td>
+        </tr>
+        <tr>
+            <td>Vehicle Capacity:</td>
+            <td><input type="text" ng-model="contact.Phone" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:right">
+                <button class="button" ng-click="save()">
+                    {{action}}
+                </button>
+                <a href="#/" class="cancel">Cancel</a>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="details.html" />
+    <Content Include="AddCP.html" />
     <Content Include="scripts\angular-route.js" />
     <Content Include="scripts\angular.js" />
     <Content Include="scripts\app.js" />
@@ -65,10 +66,15 @@
     <Content Include="scripts\jquery_1.9.1.min.js" />
     <Content Include="scripts\json-data.js" />
     <Content Include="list.html" />
+    <Content Include="styles\demo.css" />
     <Content Include="styles\images\delete.png" />
     <Content Include="styles\images\edit.gif" />
     <Content Include="styles\images\new.png" />
+    <Content Include="styles\logincss.css" />
     <Content Include="styles\main.css" />
+    <Content Include="styles\regStyle.css" />
+    <Content Include="styles\reset.css" />
+    <Content Include="styles\style.css" />
     <Content Include="views\Login.html" />
     <Content Include="views\Registration.html" />
     <Content Include="Web.config" />

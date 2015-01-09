@@ -10,3 +10,9 @@ D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\bin\AngularJs_Sample.pdb
 D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\obj\Debug\CCP_Nalashaa.csprojResolveAssemblyReference.cache
 D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\obj\Debug\AngularJs_Sample.dll
 D:\Suja\project\CCP_Nalashaa\CCP_Nalashaa\obj\Debug\AngularJs_Sample.pdb
+D:\Suja\project\CCPNalashaa\CCP_Nalashaa\bin\AngularJs_Sample.dll.config
+D:\Suja\project\CCPNalashaa\CCP_Nalashaa\bin\AngularJs_Sample.dll
+D:\Suja\project\CCPNalashaa\CCP_Nalashaa\bin\AngularJs_Sample.pdb
+D:\Suja\project\CCPNalashaa\CCP_Nalashaa\obj\Debug\CCP_Nalashaa.csprojResolveAssemblyReference.cache
+D:\Suja\project\CCPNalashaa\CCP_Nalashaa\obj\Debug\AngularJs_Sample.dll
+D:\Suja\project\CCPNalashaa\CCP_Nalashaa\obj\Debug\AngularJs_Sample.pdb
